@@ -1,0 +1,41 @@
+{
+   "type": "PCI",
+   "version": 1.0,
+   "systemId":1000,
+   "mcams":
+   [
+      { "id":1,"url":"rtsp://10.1.201.202/media/video1" },
+      { "id":2,"url":"rtsp://10.1.201.203/media/video1" },
+      { "id":3,"url":"rtsp://10.1.201.204/media/video1" },
+      { "id":4,"url":"rtsp://10.1.201.205/media/video1" },
+      { "id":5,"url":"rtsp://10.1.201.206/media/video1" },
+      { "id":6,"url":"rtsp://10.1.201.207/media/video1" },
+      { "id":7,"url":"rtsp://10.1.201.208/media/video1" },
+      { "id":8,"url":"rtsp://10.1.201.209/media/video1" },
+      { "id":9,"url":"rtsp://10.1.201.210/media/video1" },
+      { "id":10,"url":"rtsp://10.1.201.211/media/video1" },
+      { "id":11,"url":"rtsp://10.1.201.212/media/video1" },
+      { "id":12,"url":"rtsp://10.1.201.213/media/video1" },
+      { "id":13,"url":"rtsp://10.1.201.214/media/video1" },
+      { "id":14,"url":"rtsp://10.1.201.215/media/video1" },
+      { "id":15,"url":"rtsp://10.1.201.216/media/video1" },
+      { "id":16,"url":"rtsp://10.1.201.239/media/video1" },
+      { "id":17,"url":"rtsp://10.1.201.218/media/video1" },
+      { "id":18,"url":"rtsp://10.1.201.219/media/video1" },
+      { "id":19,"url":"rtsp://10.1.201.220/media/video1" },
+      { "id":20,"url":"rtsp://10.1.201.221/media/video1" },
+      { "id":21,"url":"rtsp://10.1.201.237/media/video1" },
+      { "id":22,"url":"rtsp://10.1.201.223/media/video1" },
+      { "id":23,"url":"rtsp://10.1.201.224/media/video1" },
+      { "id":24,"url":"rtsp://10.1.201.225/media/video1" },
+      { "id":25,"url":"rtsp://10.1.201.226/media/video1" },
+      { "id":26,"url":"rtsp://10.1.201.233/media/video1" },
+      { "id":27,"url":"rtsp://10.1.201.228/media/video1" },
+      { "id":28,"url":"rtsp://10.1.201.229/media/video1" },
+      { "id":29,"url":"rtsp://10.1.201.230/media/video1" },
+      { "id":30,"url":"rtsp://10.1.201.231/media/video1" },
+      { "id":31,"url":"rtsp://10.1.201.232/media/video1" },
+      { "id":32,"url":"rtsp://10.1.201.236/media/video1" }
+   ]
+}
+

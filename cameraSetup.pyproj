@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{001fbbd9-184b-449e-ad16-137f112f4c6e}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>fixCropBox.py</StartupFile>
+    <SearchPath>..\cameraData\</SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="autoSWAlignment\ptz0settings.txt" />
+    <Content Include="autoSWAlignment\temp.jpg" />
+    <Content Include="example.json" />
+    <Content Include="images\temp\ptzsettings1.txt" />
+    <Content Include="images\temp\ptzsettings10.txt" />
+    <Content Include="images\temp\ptzsettings11.txt" />
+    <Content Include="images\temp\ptzsettings12.txt" />
+    <Content Include="images\temp\ptzsettings13.txt" />
+    <Content Include="images\temp\ptzsettings14.txt" />
+    <Content Include="images\temp\ptzsettings15.txt" />
+    <Content Include="images\temp\ptzsettings16.txt" />
+    <Content Include="images\temp\ptzsettings17.txt" />
+    <Content Include="images\temp\ptzsettings18.txt" />
+    <Content Include="images\temp\ptzsettings19.txt" />
+    <Content Include="images\temp\ptzsettings2.txt" />
+    <Content Include="images\temp\ptzsettings20.txt" />
+    <Content Include="images\temp\ptzsettings21.txt" />
+    <Content Include="images\temp\ptzsettings22.txt" />
+    <Content Include="images\temp\ptzsettings23.txt" />
+    <Content Include="images\temp\ptzsettings24.txt" />
+    <Content Include="images\temp\ptzsettings25.txt" />
+    <Content Include="images\temp\ptzsettings26.txt" />
+    <Content Include="images\temp\ptzsettings27.txt" />
+    <Content Include="images\temp\ptzsettings28.txt" />
+    <Content Include="images\temp\ptzsettings29.txt" />
+    <Content Include="images\temp\ptzsettings3.txt" />
+    <Content Include="images\temp\ptzsettings30.txt" />
+    <Content Include="images\temp\ptzsettings31.txt" />
+    <Content Include="images\temp\ptzsettings32.txt" />
+    <Content Include="images\temp\ptzsettings4.txt" />
+    <Content Include="images\temp\ptzsettings5.txt" />
+    <Content Include="images\temp\ptzsettings6.txt" />
+    <Content Include="images\temp\ptzsettings7.txt" />
+    <Content Include="images\temp\ptzsettings8.txt" />
+    <Content Include="images\temp\ptzsettings9.txt" />
+    <Content Include="imagingsettings.txt" />
+    <Content Include="ipelademo32.json" />
+    <Content Include="settings_files\ptzsettings0.txt" />
+    <Content Include="settings_files\ptzsettings1.txt" />
+    <Content Include="settings_files\ptzsettings10.txt" />
+    <Content Include="settings_files\ptzsettings11.txt" />
+    <Content Include="settings_files\ptzsettings12.txt" />
+    <Content Include="settings_files\ptzsettings13.txt" />
+    <Content Include="settings_files\ptzsettings14.txt" />
+    <Content Include="settings_files\ptzsettings15.txt" />
+    <Content Include="settings_files\ptzsettings16.txt" />
+    <Content Include="settings_files\ptzsettings17.txt" />
+    <Content Include="settings_files\ptzsettings18.txt" />
+    <Content Include="settings_files\ptzsettings19.txt" />
+    <Content Include="settings_files\ptzsettings2.txt" />
+    <Content Include="settings_files\ptzsettings20.txt" />
+    <Content Include="settings_files\ptzsettings21.txt" />
+    <Content Include="settings_files\ptzsettings22.txt" />
+    <Content Include="settings_files\ptzsettings23.txt" />
+    <Content Include="settings_files\ptzsettings24.txt" />
+    <Content Include="settings_files\ptzsettings25.txt" />
+    <Content Include="settings_files\ptzsettings26.txt" />
+    <Content Include="settings_files\ptzsettings27.txt" />
+    <Content Include="settings_files\ptzsettings28.txt" />
+    <Content Include="settings_files\ptzsettings29.txt" />
+    <Content Include="settings_files\ptzsettings3.txt" />
+    <Content Include="settings_files\ptzsettings30.txt" />
+    <Content Include="settings_files\ptzsettings31.txt" />
+    <Content Include="settings_files\ptzsettings32.txt" />
+    <Content Include="settings_files\ptzsettings4.txt" />
+    <Content Include="settings_files\ptzsettings5.txt" />
+    <Content Include="settings_files\ptzsettings6.txt" />
+    <Content Include="settings_files\ptzsettings7.txt" />
+    <Content Include="settings_files\ptzsettings8.txt" />
+    <Content Include="settings_files\ptzsettings9.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="autoSWAlignment\point_ptz_cams.py" />
+    <Compile Include="autoSWAlignment\__init__.py" />
+    <Compile Include="colorCal\find_cam_wb.py" />
+    <Compile Include="fixCropBox.py" />
+    <Compile Include="fixCropBox_real.py" />
+    <Compile Include="grabImages.py" />
+    <Compile Include="GUIfiles\improc_library.py" />
+    <Compile Include="GUIfiles\point_ptz_cams.py" />
+    <Compile Include="GUIfiles\sony_ptz_library.py" />
+    <Compile Include="GUIfiles\SWAlignTab.py" />
+    <Compile Include="GUIfiles\test_multizone_json.py" />
+    <Compile Include="GUIfiles\TKZAlignTab.py" />
+    <Compile Include="GUIfiles\write_color_json.py" />
+    <Compile Include="GUIfiles\write_json.py" />
+    <Compile Include="GUIfiles\write_json_multi_zone.py" />
+    <Compile Include="GUIfiles\write_json_single_zone.py" />
+    <Compile Include="GUIfiles\__init__.py" />
+    <Compile Include="settingsGUI.py" />
+    <Compile Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="autoSWAlignment" />
+    <Folder Include="colorCal" />
+    <Folder Include="GUIfiles" />
+    <Folder Include="images\" />
+    <Folder Include="images\temp" />
+    <Folder Include="settings_files" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>

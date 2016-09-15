@@ -1,0 +1,7 @@
+To install, type 
+sudo ./install.sh
+
+to use, execute:
+./settingsGUI.py [location_of_JSON_file]
+
+the default location is ./example.json

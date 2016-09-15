@@ -1,0 +1,1 @@
+AbsolutePTZF=00bb,05a5,0001,13ec&PanMovementRange=e020,1fe0&PanPanoramaRange=e020,1fe0&PanTiltMaxVelocity=24&PtzInstance=1&TiltMovementRange=e48d,0b83&TiltPanoramaRange=f808,0b83&ZoomMaxVelocity=8&ZoomMovementRange=0000,4000,7ac0&PtzfStatus=idle,idle,idle,idle
